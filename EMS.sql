@@ -1,0 +1,12 @@
+CREATE DATABASE EMS;
+USE EMS
+
+CREATE TABLE Employee
+(
+  EmployeeID INT IDENTITY(101,1) PRIMARY KEY,
+  FirstName VARCHAR(50) NOT NULL,
+  LastName VARCHAR(50) NOT NULL,
+  Address VARCHAR(100) NOT NULL
+);
+
+select * from Employee;
